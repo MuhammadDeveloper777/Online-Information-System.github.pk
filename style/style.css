@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+	.container{
+		width: 97vw;
+		height: 100vh;
+		background-color: lightgray;
+	}
+	.row{
+		display: flex;
+		justify-content: center;
+		}
+	.logo{
+		width: 10vw;
+		margin-top: 1vh;
+	}
+
+	.logo img{
+		margin-left: 1vw;
+	}
+	.heading{
+		width: 86vw;
+		text-align: center;
+	}
+	.links{
+		width: 30vw;
+	}
+
+	.links .link a{
+		margin-left: 3vw;
+	}
+	.menu{
+		width: 20vw;
+		border: 5px solid gray;
+		border-radius: 3vh;
+		height: 70vh;
+		text-align: center;
+	}
+	.menu h1{
+		text-align: center;
+	}
+	.menu ul{
+		list-style:;
+	}
+	.content{
+		width: 77vw;
+	}
+	.content-row{
+		display: flex;
+		justify-content: center;
+	}
+	.content-row .img img{
+		width: 10vw;
+		height: 20vh;
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
+	.content-row .text{
+		margin-left: 1vw;
+	}
+	.copyright{
+		margin-bottom: 1vh;
+	}
